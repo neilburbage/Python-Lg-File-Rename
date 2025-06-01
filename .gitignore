@@ -1,0 +1,17 @@
+Python cache & compiled files
+__pycache__/
+*.py[cod]
+
+# Virtual envs
+venv/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log / temp
+*.log
+
+# WIP folder
+Draft_Rename_Scripts
