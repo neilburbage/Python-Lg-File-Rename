@@ -15,3 +15,8 @@ Thumbs.db
 
 # WIP folder
 Draft_Rename_Scripts
+
+# at the root of the repo
+echo '.idea/'
+echo '/Scratch/'
+echo 'OneDrive/'
