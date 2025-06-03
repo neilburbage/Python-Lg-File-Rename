@@ -9,8 +9,8 @@ This toolkit contains three small CLI tools that turn a folder of random files i
 | File | What it does                                                                        |
 |------|-------------------------------------------------------------------------------------|
 | 01_regex_creator.py | Factory-generate N dummy files of any extension in a source folder.                 |
-| 02_regex_rename.py  | Rename all files whose extension is in a comma separated list (e.g., `.jpg,.pdf`).   |
-| 03_regex_match.py   | Move regex match (case-insensitive) to destination folder and rewrite matched part. |
+| 02_regex_rename.py  | Rename all files whose extension is in a comma separated list (e.g., `.jpg,.pdf`).  |
+| 03_regex_match.py   | Move regex match (case insensitive) to destination folder and rewrite matched part. |
 
 ### Quick start
 
