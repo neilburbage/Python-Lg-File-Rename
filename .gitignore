@@ -23,3 +23,8 @@ echo 'OneDrive/'
 # Ignore OneDrive backups
 OneDrive/
 **/OneDrive/**
+
+# Ignore local backup folders
+OneDrive/
+**/OneDrive/**
+Scratch/
