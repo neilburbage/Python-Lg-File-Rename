@@ -20,3 +20,6 @@ Draft_Rename_Scripts
 echo '.idea/'
 echo '/Scratch/'
 echo 'OneDrive/'
+# Ignore OneDrive backups
+OneDrive/
+**/OneDrive/**
