@@ -32,8 +32,8 @@
 ```git clone git@github.com:neilburbage/Python-Lg-File-Rename.git```  
 **Make sure you've added your SSH key first:**   
 ```https://docs.github.com/en/authentication/connecting-to-github-with-ssh```    
-```cd Python-Lg-File-Rename```
-**Create a virtual environment:**     
+```cd Python-Lg-File-Rename```  
+**Create a virtual environment:**       
 ```python -m venv .venv```  
 ```# Linux / macOS: source .venv/bin/activate```     
 ```# Windows (PowerShell): .venv\Scripts\Activate.ps1```  
@@ -41,26 +41,29 @@
 
 </small>
 
+---
+
 <small>
 
-```
+```bash
 # 1 Create test data in Source_Dir
 python 01_regex_creator.py Source_Dir \
-       --count 3 \
-       --exts ".jpg,.pdf" \
-       --dry  # preview
-
-# 2 Bulk-rename by extension
+        --count 3 \
+        --exts ".jpg,.pdf" \
+        --dry   # preview
+        
+# 2 Bulk-rename by extension        
 python 02_regex_rename.py Source_Dir \
-       --ext ".jpg,.pdf" \
-       --newname btc_ \
-       --dry  # preview
+        --ext ".jpg,.pdf" \
+        --newname btc_ \
+        --dry   # preview
 
-# 3️ Move files whose name contains “eth” to Eth_Matches
+# 3 Move files whose name contains “eth” to Eth_Matches
 python 03_regex_match.py Source_Dir Eth_Matches \
-       --pattern "(?i)eth_" \
-       --replace "eth_l2_" \
-       --dry      # preview
+        --pattern "(?i)eth_" \
+        --replace "eth_l2_" \
+        --dry   # preview
+
 ```
 
 </small>
@@ -68,8 +71,6 @@ python 03_regex_match.py Source_Dir Eth_Matches \
 ---
 
 ### Project layout
-
-<small>
 
 ```
 Python-Lg-File-Rename/
@@ -83,7 +84,6 @@ Python-Lg-File-Rename/
 └── README.md             # you are here
 ```
 
-</small>
 ---
 
 
